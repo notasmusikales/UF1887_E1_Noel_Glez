@@ -13,8 +13,8 @@ Esto permite que el usuario navegue por el ERP sin volver a autenticarse en cada
 ## 3. Roles del sistema
 - Los roles en Odoo se gestionan mediante grupos de seguridad.
 Cada grupo define permisos sobre módulos y datos.
-Ejemplos de roles:
-- Administrador
+- Ejemplos de roles:
+  - Administrador
   - Usuario interno
   - Usuario de ventas
   - Usuario contable
