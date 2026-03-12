@@ -21,3 +21,12 @@
 - Protocolo: HTTP / HTTPS (XML-RPC / JSON-RPC)
     - Herramienta: aplicaciones externas o scripts
     - Autenticación: usuario + contraseña o API key
+  
+# Canales de Acceso posibles
+
+| Canal           | Protocolo | Herramienta        | Tipo de autenticación | Observaciones                 |
+|-----------------|-----------|------------------|---------------------|-------------------------------|
+| Web             | HTTPS     | Navegador        | Usuario/Contraseña  | Odoo sesiones activas         |
+| Base de datos   | TCP/IP    | psql / DBeaver   | Usuario/Contraseña  | Roles y permisos revisados    |
+| Administración  | SSH       | Terminal / PuTTY | Contraseña / Key    | Usuarios Linux y sudoers      |
+| API             | HTTPS     | Postman / curl   | Token / Usuario     | Claves API configuradas       |

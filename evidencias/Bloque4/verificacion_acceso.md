@@ -6,7 +6,7 @@
     - Accounting
     - CRM
     - Settings
-###Resultado:
+### Resultado:
 - El usuario tiene acceso completo al sistema.
 ---
 ## Usuario comercial
@@ -15,7 +15,7 @@
     - Sales
     - CRM
     - Customers
-    - Módulos restringidos:
+- Módulos restringidos:
     - Accounting
     - Settings
 ### Resultado:
