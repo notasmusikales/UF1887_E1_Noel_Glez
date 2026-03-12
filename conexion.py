@@ -1,6 +1,6 @@
 import xmlrpc.client
 
-url = "http://192.168.1.157:8001"
+url = "http://localhost:8001"
 db = "odoo"
 username = "admin"
 password = "1234"   # o una API key
